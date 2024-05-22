@@ -41,18 +41,13 @@ class Lion(Animal):
     def scratch(self):
         print(f"{self.name} scratches")
 
-    def __str__(self):
-        return f"Animal: {self.name}, Type: {self.type}, Habitat: {self.habitat}"
-
-
 # Create at least two instances of the Animal derived classes with different data.
 
-lion = Lion("bob", "mammal", "africa", "18m")
-
+lion1 = Lion("bob", "mammal", "africa", "18m")
 
 
 # Write code that prints out the details of each animal and calls their specific behaviors.
-
+print(lion1)
 
 
 
